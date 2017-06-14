@@ -3,7 +3,7 @@ import style from './App.css';
 import Header from './organisms/Header/';
 import Chart from './organisms/Chart/';
 
-import { mockData } from '../mockData/'
+import { mockData } from '../mockData/';
 
 // redux
 import { bindActionCreators } from 'redux';
@@ -18,7 +18,7 @@ class App extends Component {
     this.props.actions.sort('First Name');
   }
 
-  render({...props}) {
+  render({ ...props }) {
     return (
       <div className={style.App}>
         <Header />

@@ -1,4 +1,4 @@
-import { 
+import {
   SORT,
   PAGE_COUNT,
   PAGE_NUMBER,
@@ -43,7 +43,7 @@ export const loadData = data => {
 
 export const increment = increment => {
   return {
-    type: INCREMENT
+    type: INCREMENT,
   };
 };
 

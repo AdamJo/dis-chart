@@ -11,22 +11,31 @@ import Title from '../../atoms/Title';
 
 const ChartOptions = class ChartOptions extends Component {
   render() {
-    console.log(this.props);
     return (
       <div className={style.chartOptions}>
         <div>
           <Title />
           <PipeDivider />
-          <Sorting sort={this.props.actions.sort} sortValue={this.props.chart.sort} />
+          <Sorting
+            sort={this.props.actions.sort}
+            sortValue={this.props.chart.sort}
+          />
         </div>
         <div>
-          <ItemsPerPage pageCount={this.props.actions.pageCount} pageCountValue={this.props.chart.pageCount} />
-          <PageNumber pageNumber={this.props.chart.pageNumber} pageCount={this.props.chart.pageCount} dataCount={this.props.chart.data} />
+          <ItemsPerPage
+            pageCount={this.props.actions.pageCount}
+            pageCountValue={this.props.chart.pageCount}
+          />
+          <PageNumber
+            pageNumber={this.props.chart.pageNumber}
+            pageCount={this.props.chart.pageCount}
+            dataCount={this.props.chart.data}
+          />
           <ArrowLeft decrement={this.props.actions.decrement} />
-          <ArrowRight increment={this.props.actions.increment}/>
+          <ArrowRight increment={this.props.actions.increment} />
         </div>
       </div>
-    )
+    );
   }
 };
 

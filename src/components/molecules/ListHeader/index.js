@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import style from './index.css';
 
-import { listHeaders } from '.././../../helpers'
-import shortid from 'shortid'
+import { listHeaders } from '.././../../helpers';
+import shortid from 'shortid';
 
 const ListHeader = class ListHeader extends Component {
   render() {
@@ -12,7 +12,7 @@ const ListHeader = class ListHeader extends Component {
           return <div key={shortid.generate()}>{data}</div>;
         })}
       </div>
-    )
+    );
   }
 };
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import style from './index.css'
+import style from './index.css';
 
 const ArrowLeft = class ArrowLeft extends Component {
   render() {
@@ -7,7 +7,7 @@ const ArrowLeft = class ArrowLeft extends Component {
       <div className={style.leftArrow} onClick={this.props.decrement}>
         {'<'}
       </div>
-    )
+    );
   }
 };
 

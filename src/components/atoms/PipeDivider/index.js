@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import style from './index.css'
+import style from './index.css';
 
 const PipeDivider = class PipeDivider extends Component {
   render() {
@@ -7,7 +7,7 @@ const PipeDivider = class PipeDivider extends Component {
       <div className={style.pipeDivider}>
         |
       </div>
-    )
+    );
   }
 };
 
