@@ -1,0 +1,34 @@
+.row {
+
+  height: 32px;
+  font-size: .75rem;
+  font-weight: 400;
+  color: #808285;
+  background: #F7F7F7;
+  line-height: 32px;
+  
+  padding-left: 20px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.row div:nth-child(4) {
+  /* TODO make response with flex-grow */
+  width: 250px;
+}
+
+.row div {
+  /* TODO make response with flex-grow */
+  width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.row:nth-child(even) {
+  background: #F0F0F0;
+}

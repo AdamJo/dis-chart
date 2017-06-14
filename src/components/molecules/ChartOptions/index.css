@@ -1,0 +1,10 @@
+.chartOptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.chartOptions div {
+  display: flex;
+  flex-direction: row;
+}

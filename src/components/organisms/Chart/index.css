@@ -1,0 +1,13 @@
+.container {
+  margin-top: 25px;
+
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.chart {
+  width: 90%;
+  min-width: 800px;
+}

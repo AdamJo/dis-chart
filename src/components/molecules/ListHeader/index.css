@@ -1,0 +1,25 @@
+.listHeader {
+  height: 32px;
+  background: #CACBCE;
+  border-radius: 3px 3px 0 0;
+  font-size: .75rem;
+  font-weight: 700;
+  color: #3c3961;
+
+  line-height: 32px;
+  padding-left: 20px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.listHeader div:nth-child(4) {
+  /* TODO make response with flex-grow */
+  width: 250px;
+}
+
+.listHeader div {
+  /* TODO make response with flex-grow */
+  width: 150px;
+}

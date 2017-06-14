@@ -1,0 +1,11 @@
+.pageNumbers {
+  font-size: 0.875rem;
+  color: #7F56C5;
+}
+
+.pageNumbers span:first-child, span:last-child {
+  font-weight: 700;
+}
+.pageNumbers div {
+  margin: 0 5px;
+}

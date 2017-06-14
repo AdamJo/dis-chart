@@ -1,0 +1,12 @@
+.App {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+select {
+  color: #1DAFE9;
+  font-weight: 600;
+  outline: none;
+  border: none;
+}

@@ -1,0 +1,10 @@
+.itemsPerPage {
+  line-height: 25px;
+  font-size: .75rem;
+  font-weight: 600;
+  color: #7F56C5;
+}
+
+.itemsSelector {
+  color: #1DAFE9;
+}
